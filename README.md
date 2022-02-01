@@ -1,5 +1,18 @@
-🏰## Addon KODI 🇫🇷
-🔗🕺 **Adresse pour le gestionnaire de fichiers Kodi:** /<br>💃
+
+🔗🕺 
+🌳 
+🌳 
+
+
+
+# cokodico Alpha Repository
+
+Kodi File Manager Source:
+https://benking110181.github.io/repository.cokodico/
+
+
+🏰## Addon KODI 🇫🇷💃
+🔗🕺 
 🌞 
 
 🔥 **
