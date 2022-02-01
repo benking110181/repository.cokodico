@@ -168,7 +168,7 @@
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>repository.cokodico</summary>
+        <summary>cokodico Alpha Repository</summary>
         <description>Un référentiel pour les versions alpha des skins de cokodico !</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
