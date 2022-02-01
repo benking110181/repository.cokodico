@@ -268,6 +268,37 @@
             <screenshot>resources/screenshot-07.jpg</screenshot>
         </assets>
     </extension>
+	</addon><addon id="plugin.video.sendtokodiU2P" name="U2Pplay" version="0.5.19" provider-name="noway">
+  <requires>
+    <trycatch>
+      <try>
+          <import addon="xbmc.python" version="3.0.0"/>
+      </try>
+      <catch>
+          <import addon="xbmc.python" version="2.25.0"/>
+      </catch>
+        </trycatch>
+    <import addon="script.module.requests" version="2.12.4"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="service.py" >
+  <provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">U2Pplay</summary>
+    <description lang="en">U2Pplay permet d'importer une base de contenu en 1 clic ou de creer des fichiers strm a partir d'IDs de pastes cryptes puis de les streamer via Kodi. Necessite un compte premium Uptobox ou Alldebrid</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <license>MIT License</license>
+    <website></website>
+    <email></email>
+    <source></source>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+	  <screenshot>screenshot-01.jpg</screenshot>
+      <screenshot>screenshot-02.jpg</screenshot>
+    </assets>
+  </extension>
 </addon><addon id="skin.eminence.2" name="Eminence" provider-name="jurialmunkey" version="4.1.22">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
