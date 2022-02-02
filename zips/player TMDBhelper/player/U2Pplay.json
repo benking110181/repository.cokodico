@@ -1,0 +1,16 @@
+{
+  "name": "U2Pplay",
+  "language": "fr",
+  "plugin": "plugin.video.themoviedb.helper",
+  "search_movie": [
+    "plugin://plugin.video.sendtokodiU2P/?action=detailM&u2p={tmdb}", 
+    {"position": "2"},
+    {"dialog": "Auto"}
+  ],
+  "search_episode": [
+    "plugin://plugin.video.sendtokodiU2P/?action=detailT&u2p={tmdb}&saison={season}",
+    {"position": "2"},
+    {"position": "{episode}"}
+  ],
+  "is_resolvable": "true"
+}
